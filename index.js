@@ -1,5 +1,5 @@
 
-sheep = [ 10, 17, 1, 15, 10, 22, 17, 1];
+sheep = [ 10, 17, 1, 15, 10, 22, 17, 1, 17, 17];
 let compteur = 0;
 
   function findSheep(sheep) {
