@@ -1,20 +1,25 @@
 
-sheep = [ 10, 17, 1, 15, 10, 22, 17, 1, 17, 17];
+sheep = [true, true, true, false,
+    true, true, true, true ,
+    true, false, true, false,
+    true, false, false, true,
+    true, true, true, true ,
+    false, false, true, true];
+
 let compteur = 0;
 
-  function findSheep(sheep) {
+  function findSheep() {
       this.sheep.forEach(element =>{
-        if( sheep !== null && sheep !== undefined){
-          if(element === sheep) {
+        if( element !== null && element !== undefined){
+          if(element === true) {
             compteur ++
           }
         }
       })
       console.log(compteur + ' moutons');
   }
-
   function main(){
-    findSheep(17);
+    findSheep();
   }
 
   main();
